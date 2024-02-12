@@ -1,3 +1,4 @@
+import 'package:clase_1/componets/container_image.dart';
 import 'package:clase_1/componets/input_primary.dart';
 import 'package:flutter/material.dart';
 
@@ -50,15 +51,36 @@ class ViewPrimary extends StatelessWidget {
       body: ListView(
         children: [
           const SizedBox(height: 20.0),
-          GestureDetector(
-            onTap: () {},
-            child: Container(
-              height: 80.0,
-              width: 100.0,
-              color: Colors.white,
-            child: ImputPrimary(label: "Mi primer componente",isActive: true,),
-            ),
+           ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")
+            
           ),
+            const SizedBox(height: 20.0),
+           ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")
+            
+          ),
+            const SizedBox(height: 20.0),
+           ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")
+            
+          ),
+            const SizedBox(height: 20.0),
+           ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")
+            
+          ),
+            const SizedBox(height: 20.0),
+           ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")
+            
+          ),
+            const SizedBox(height: 20.0),
+           ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")
+            
+          ),
+          
           InkWell(
             onTap: () {},
             child: Container(
@@ -73,15 +95,11 @@ class ViewPrimary extends StatelessWidget {
             children: [
               Expanded(
                 flex: 3,
-                child: InkWell(
-                          onTap: () {},
-                          child: Container(
-                height: 80.0,
-                width: 100.0,
-                color: Colors.purple,
-                child: Center(child: Text("Ingresar2")),
-                          ),
-                        ),
+            
+            child: ContainerImage(
+              insertImage:AssetImage("assets/zoro.png")// DecorationImage(image:AssetImage("assets/zoro.png"))
+            ),
+        
               ),
           
             Expanded(
