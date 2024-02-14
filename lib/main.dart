@@ -24,7 +24,7 @@
 //     );
 //   }
 // }
-import 'package:clase_1/app_food/food_view.dart';
+import 'package:clase_1/app_food/food_view_Marine.dart';
 import 'package:clase_1/vista_1.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';

@@ -1,0 +1,20 @@
+{
+    "menuMarino": [
+        {
+            "name": "Chilcano",
+            "image": "assets/FoodMarinos/chilcano.png"
+        },
+        {
+            "name": "Chicharrones",
+            "image": "assets/FoodMarinos/chilcano.png"
+        },
+        {
+            "name": "Parihguela",
+            "image": "assets/FoodMarinos/parihuel.png"
+        },
+        {
+            "name": "Sudado de pescado",
+            "image": "assets/FoodMarinos/Sudadodepescado.png"
+        }
+    ]
+}
